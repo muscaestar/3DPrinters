@@ -59,8 +59,10 @@ USB的简单组成：4根线，分别是电源、地线、D+、D-。把主板的
 
 推荐一开始就直接在树莓派上安装Kiauh，使用`$ ./kiauh.sh`会引导安装所有需要的软件。
 推荐镜像：
+
     - Raspberry Pi OS Lite(32-bit) 这是Kiauh官方推荐，不包含桌面环境
     - Raspberry Pi OS (32-bit) 我用的这个，因为我这里树莓派的屏幕一定需要安装桌面环境才能驱动
+
 因为网络原因最好上一个trojan，我这里就把用到的shell记录下。
 
 ```shell
@@ -101,7 +103,7 @@ git clone https://github.com/dw-0/kiauh.git
 
 现在打开SermoonV1，连接树莓派上位机，通过浏览器输入ip地址进入Fluidd控制后台，之后的操作就是喜闻乐见的Klipper配置环节。
 
-- 我的printer.cfg
+- 我的配置[移步 config/printer.cfg](/config/printer.cfg)
 - klipper官方的[针对SermoonV1的配置](https://github.com/Klipper3d/klipper/blob/master/config/printer-creality-sermoonV1-2022.cfg)，就是这里写明编译固件的硬件参数。
 
 感谢这些资料：
